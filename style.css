@@ -229,7 +229,8 @@ a {
 
 /* Contact Page */
 .contact-main-container {
-    width: 50%;
+    max-width: 600px;
+    width: 100%;
 }
 
 .contact-main-container h1 {
@@ -297,5 +298,13 @@ a {
 @media (max-width: 500px) {
     body {
         padding: 0px 20px;
+    }
+}
+
+/* contact */
+@media (max-width: 400px) {
+    .contact-main-container h1 {
+        font-size: 3rem;
+        line-height: 50px;
     }
 }
